@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../../static/assets/favicon.ico" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+        <title>첼로스퀘어 사이트가 리뉴얼 오픈했습니다. | 첼로스퀘어(Cello Square)</title>
+        <meta name="description" contents="새 단장한 첼로스퀘어 사이트를 살펴보세요. | 첼로스퀘어" />
+        <link rel="canonical" href="https://www.cello-square.com/kr/news/news-list.html" />
+        <link rel="alternate" href="https://www.cello-square.com/kr/news/news-list.html" hreflang="kr" />
+        <link rel="alternate" href="https://www.cello-square.com/en/news/news-list.html" hreflang="x-default" />
+        <!-- live url 업데이트 -->
+        <link rel="stylesheet" href="https://www.cello-square.com/static/css-new/common.css" />
+        <!-- common -->
+        <style>
+            .pop-notice .popup {
+                max-width: 1000px;
+                min-width: 1000px;
+                padding: 0 0 46px;
+            }
+            .pop-notice .popup .popup-con {
+                display: flex;
+            }
+            .pop-notice button.btn-popup-close {
+                bottom: 0;
+                top: inherit;
+                right: 5px;
+                z-index: 1;
+            }
+            @media screen and (max-width: 767px) {
+                .pop-notice .popup {
+                    max-width: 90vw;
+                    min-width: 90vw;
+                    overflow: inherit;
+                    padding-bottom: 0;
+                    max-height: calc(90vh - 92px);
+                }
+                .pop-notice .popup .popup-con {
+                    flex-direction: column;
+                    overflow-y: scroll;
+                    height: 100%;
+                }
+                .pop-notice .popup .popup-con a img {
+                    width: 100%;
+                    height: auto;
+                }
+                .pop-notice button.btn-popup-close {
+                    bottom: -46px;
+                }
+                .pop-notice .btn-wrap {
+                    bottom: -46px;
+                }
+            }
+        </style>
+        <!-- //common -->
+    </head>
+    <body>
+        <div class="pop-notice popup-wrap open" id="popup_two_areas">
+            <style>
+                .popup_div {
+                    display: flex;
+                    gap: 20px;
+                }
+                .popup_div .popup-info {
+                    flex: 1;
+                    position: relative;
+                    padding-bottom: 47px;
+                    height: fit-content;
+                }
+                .popup_div .popup-info .popup-a-link-img1 {
+                    position: absolute;
+                    left: 0%;
+                    bottom: 47px;
+                    display: block;
+                    width: 100%;
+                    height: calc(100% - 47px);
+                }
+                .popup_div .popup-info .popup-a-link-img2 {
+                    position: absolute;
+                    left: 20%;
+                    bottom: calc(5% + 47px);
+                    display: block;
+                    width: 61%;
+                    aspect-ratio: 360 / 80;
+                }
+                .popup_div .popup-info .btn-popup-close-top {
+                    position: absolute;
+                    top: 10px;
+                    right: 30px;
+                    width: 44px;
+                    height: 44px;
+                    padding: 10px;
+                    z-index: 1;
+                }
+                .popup_div .popup-info .btn-popup-close-top img {
+                    width: 24px;
+                }
+                #popup_two_areas.pop-notice .check-box input[type="checkbox"] + label:before {
+                    border: 1px solid #e9e9e9;
+                    box-sizing: border-box;
+                }
+                #popup_two_areas.pop-notice .check-box input[type="checkbox"]:not(:checked) + label:after {
+                    background: none;
+                }
+                @media screen and (max-width: 767px) {
+                    .popup_div {
+                        display: block;
+                        max-width: 90vw;
+                        min-width: 90vw;
+                        overflow: hidden auto;
+                        padding-bottom: 0;
+                        max-height: calc(90vh - 92px);
+                    }
+                    .popup_div .popup-info {
+                        padding-bottom: 44px;
+                    }
+                    .popup_div .popup-info img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    .popup_div button.btn-popup-close,
+                    .popup_div .btn-wrap {
+                        bottom: 0;
+                    }
+                    /* 两张图片展示需要打开,仅删除注释，不要改变代码 */
+                    /* .popup-info:last-of-type {
+                        display: none !important;
+                    } */
+
+                    .popup-info.show-last-one {
+                        display: block !important;
+                    }
+                    .popup_div .popup-info .popup-a-link-img1 {
+                        bottom: 44px;
+                        height: calc(100% - 44px);
+                    }
+                    .popup_div .popup-info .popup-a-link-img2 {
+                        bottom: calc(5% + 44px);
+                    }
+                }
+            </style>
+            <div class="popup_div">
+                <div class="popup-info" style="display: block">
+                    <button type="button" class="btn-popup-close-top" onclick="twoAreasPopupClose(0,event)">
+                        <span class="hidden">레이어 팝업 닫기</span> <img src="/static/assets-new/popup_delete.png" alt="" />
+                    </button>
+                    <a class="popup-a-link-img1" href="https://www.cello-square.com/kr/promotion/view-213.do"></a>
+                    <img src="./2608_LCL_popup.jpg" alt="7월 Special Deal LCL 파격특가" class="pc-img" />
+                    <img src="./2608_LCL_popup.jpg" alt="7월 Special Deal LCL 파격특가" class="mo-img" />
+                    <button type="button" class="btn-popup-close" onclick="twoAreasPopupClose(0,event)">
+                        <span class="hidden">레이어 팝업 닫기</span>
+                    </button>
+                    <div class="btn-wrap">
+                        <span class="check-box">
+                            <input type="checkbox" id="no-watch-left" name="no-watch-pop-left" />
+                            <label for="no-watch-left">하루 동안 보지 않기</label>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

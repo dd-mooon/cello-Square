@@ -1,0 +1,72 @@
+/* 260721 */
+.popup_div {
+    display: flex;
+    gap: 20px;
+}
+.popup_div .popup-info {
+    flex: 1;
+    position: relative;
+    padding-bottom: 47px;
+    height: fit-content;
+}
+.popup_div .popup-info .popup-a-link-img1 {
+    position: absolute;
+    left: 0%;
+    bottom: 47px;
+    display: block;
+    width: 100%;
+    height: calc(100% - 47px);
+}
+.popup_div .popup-info .popup-a-link-img2 {
+    position: absolute;
+    left: 20%;
+    bottom: calc(5% + 47px);
+    display: block;
+    width: 61%;
+    aspect-ratio: 360 / 80;
+}
+.popup_div .popup-info .btn-popup-close-top {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    z-index: 1;
+}
+.popup_div .popup-info .btn-popup-close-top img {
+    width: 24px;
+}
+@media screen and (max-width: 767px) {
+    .popup_div {
+        display: block;
+        max-width: 90vw;
+        min-width: 90vw;
+        overflow: hidden auto;
+        padding-bottom: 0;
+        max-height: calc(90vh - 92px);
+    }
+    .popup_div .popup-info {
+        padding-bottom: 44px;
+    }
+    .popup_div .popup-info img {
+        width: 100%;
+        height: auto;
+    }
+    .popup_div button.btn-popup-close,
+    .popup_div .btn-wrap {
+        bottom: 0;
+    }
+    /* 两张图片展示需要打开,仅删除注释，不要改变代码 */
+    /* .popup-info:last-of-type {
+                        display: none !important;
+                    } */
+
+    .popup-info.show-last-one {
+        display: block !important;
+    }
+
+    .popup_div .popup-info .popup-a-link-img2 {
+        bottom: calc(5% + 44px);
+    }
+}

@@ -1,0 +1,8 @@
+.transport-result li .price-add {
+    width: max-content;
+    margin-left: auto;
+}
+
+.auto-search i {
+    flex-shrink: 0;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../../static/assets/favicon.ico" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+        <title>첼로스퀘어 사이트가 리뉴얼 오픈했습니다. | 첼로스퀘어(Cello Square)</title>
+        <meta name="description" contents="새 단장한 첼로스퀘어 사이트를 살펴보세요. | 첼로스퀘어" />
+        <link rel="canonical" href="https://www.cello-square.com/kr/news/news-list.html" />
+        <link rel="alternate" href="https://www.cello-square.com/kr/news/news-list.html" hreflang="kr" />
+        <link rel="alternate" href="https://www.cello-square.com/en/news/news-list.html" hreflang="x-default" />
+        <!-- live url 업데이트 -->
+        <link rel="stylesheet" href="https://www.cello-square.com/static/css-new/common.css" />
+        <!-- common -->
+        <style>
+            .pop-notice .popup {
+                max-width: 1000px;
+                min-width: 1000px;
+                padding: 0 0 46px;
+            }
+            .pop-notice .popup .popup-con {
+                display: flex;
+            }
+            .pop-notice button.btn-popup-close {
+                bottom: 0;
+                top: inherit;
+                right: 5px;
+                z-index: 1;
+            }
+            @media screen and (max-width: 767px) {
+                .pop-notice .popup {
+                    max-width: 90vw;
+                    min-width: 90vw;
+                    overflow: inherit;
+                    padding-bottom: 0;
+                    max-height: calc(90vh - 92px);
+                }
+                .pop-notice .popup .popup-con {
+                    flex-direction: column;
+                    overflow-y: scroll;
+                    height: 100%;
+                }
+                .pop-notice .popup .popup-con a img {
+                    width: 100%;
+                    height: auto;
+                }
+                .pop-notice button.btn-popup-close {
+                    bottom: -46px;
+                }
+                .pop-notice .btn-wrap {
+                    bottom: -46px;
+                }
+            }
+        </style>
+        <!-- //common -->
+        <link rel="stylesheet" href="./popup.css" />
+    </head>
+    <body>
+        <div class="pop-notice popup-wrap open" id="popup_two_areas">
+            <style>
+                /* ./popup.css */
+            </style>
+            <div class="popup_div">
+                <div class="popup-info" style="display: block">
+                    <button type="button" class="btn-popup-close-top" onclick="twoAreasPopupClose(0,event)">
+                        <span class="hidden">레이어 팝업 닫기</span> <img src="./popup_delete.png" alt="" />
+                    </button>
+                    <a class="popup-a-link-img1" href="https://www.cello-square.com/kr/promotion/view-211.do"></a>
+                    <img src="https://www.cello-square.com/static/assets-new/2607_LCL_popup.jpg" alt="7월 Special Deal LCL 파격특가" class="pc-img" />
+                    <img src="https://www.cello-square.com/static/assets-new/2607_LCL_popup.jpg" alt="7월 Special Deal LCL 파격특가" class="mo-img" />
+                    <button type="button" class="btn-popup-close" onclick="twoAreasPopupClose(0,event)">
+                        <span class="hidden">레이어 팝업 닫기</span>
+                    </button>
+                    <div class="btn-wrap">
+                        <span class="check-box">
+                            <input type="checkbox" id="no-watch-left" name="no-watch-pop-left" />
+                            <label for="no-watch-left">하루 동안 보지 않기</label>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
