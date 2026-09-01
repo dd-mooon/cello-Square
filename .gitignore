@@ -2,3 +2,6 @@
 *.psd
 *.PSD
 *.zip
+.prettierrc
+.vscode/
+scripts/format-html-p.js
