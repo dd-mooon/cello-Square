@@ -1,0 +1,11 @@
+1. 국문
+
+ㆍ이름+직책: 백남진 교수
+ㆍ소속명: 덕성여자대학교
+ㆍ설명: ICT와 드론 기반 항공물류시스템 연구의 선두주자로, 실무 경력을 바탕으로 항공물류시스템·WMS·TMS·RFID·UAV·UAM 등을 연구하며 데이터 분석·프로그래밍 기술을 접목한 항공 산업 발전에 힘쓰고 있습니다
+
+2. 영문
+
+ㆍName+Title: Prof. Namjin Baek
+ㆍAffiliation: Duksung Women's University
+ㆍDescription: Drawing on his aviation experience, he has researched ICT- and drone-based air logistics systems, applying WMS, TMS, RFID, UAV, and UAM to digitalize logistics
